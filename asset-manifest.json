@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/TaskMate-Build/static/css/main.eee8b0f6.css",
-    "main.js": "/TaskMate-Build/static/js/main.80b59d15.js",
-    "static/media/greencheckmarkicon.png": "/TaskMate-Build/static/media/greencheckmarkicon.c86e3c18653740c26df4.png",
-    "static/media/iphonetransparent.png": "/TaskMate-Build/static/media/iphonetransparent.1f150461713198d5847c.png",
-    "static/media/taskmatenewtitle2.png": "/TaskMate-Build/static/media/taskmatenewtitle2.c1b6b20e121211db20e8.png",
-    "static/media/cogicon.png": "/TaskMate-Build/static/media/cogicon.392a4a09c27881e4dbc6.png",
-    "static/media/profileicon.png": "/TaskMate-Build/static/media/profileicon.bf2cb25a47a9fe8a2ca5.png",
-    "static/media/questionmarkicon.png": "/TaskMate-Build/static/media/questionmarkicon.e99016679957740cc02d.png",
-    "static/media/checkmarkicon.png": "/TaskMate-Build/static/media/checkmarkicon.8dca33fc37d451cdfb4d.png",
-    "index.html": "/TaskMate-Build/index.html",
-    "main.eee8b0f6.css.map": "/TaskMate-Build/static/css/main.eee8b0f6.css.map",
-    "main.80b59d15.js.map": "/TaskMate-Build/static/js/main.80b59d15.js.map"
+    "main.css": "/TaskMate-Prototype/static/css/main.eee8b0f6.css",
+    "main.js": "/TaskMate-Prototype/static/js/main.f5760365.js",
+    "static/media/greencheckmarkicon.png": "/TaskMate-Prototype/static/media/greencheckmarkicon.c86e3c18653740c26df4.png",
+    "static/media/iphonetransparent.png": "/TaskMate-Prototype/static/media/iphonetransparent.1f150461713198d5847c.png",
+    "static/media/taskmatenewtitle2.png": "/TaskMate-Prototype/static/media/taskmatenewtitle2.c1b6b20e121211db20e8.png",
+    "static/media/cogicon.png": "/TaskMate-Prototype/static/media/cogicon.392a4a09c27881e4dbc6.png",
+    "static/media/profileicon.png": "/TaskMate-Prototype/static/media/profileicon.bf2cb25a47a9fe8a2ca5.png",
+    "static/media/questionmarkicon.png": "/TaskMate-Prototype/static/media/questionmarkicon.e99016679957740cc02d.png",
+    "static/media/checkmarkicon.png": "/TaskMate-Prototype/static/media/checkmarkicon.8dca33fc37d451cdfb4d.png",
+    "index.html": "/TaskMate-Prototype/index.html",
+    "main.eee8b0f6.css.map": "/TaskMate-Prototype/static/css/main.eee8b0f6.css.map",
+    "main.f5760365.js.map": "/TaskMate-Prototype/static/js/main.f5760365.js.map"
   },
   "entrypoints": [
     "static/css/main.eee8b0f6.css",
-    "static/js/main.80b59d15.js"
+    "static/js/main.f5760365.js"
   ]
 }
