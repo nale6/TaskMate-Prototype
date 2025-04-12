@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  HashRouter,
-} from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing.jsx";
 import Todo from "./pages/Todo.jsx";
 import Completed from "./pages/Completed.jsx";
