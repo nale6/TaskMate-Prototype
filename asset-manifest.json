@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TaskMate-Prototype/static/css/main.eee8b0f6.css",
-    "main.js": "/TaskMate-Prototype/static/js/main.edba1d7e.js",
+    "main.js": "/TaskMate-Prototype/static/js/main.13692f45.js",
     "static/media/greencheckmarkicon.png": "/TaskMate-Prototype/static/media/greencheckmarkicon.c86e3c18653740c26df4.png",
     "static/media/iphonetransparent.png": "/TaskMate-Prototype/static/media/iphonetransparent.1f150461713198d5847c.png",
     "static/media/taskmatenewtitle2.png": "/TaskMate-Prototype/static/media/taskmatenewtitle2.c1b6b20e121211db20e8.png",
@@ -11,10 +11,10 @@
     "static/media/checkmarkicon.png": "/TaskMate-Prototype/static/media/checkmarkicon.8dca33fc37d451cdfb4d.png",
     "index.html": "/TaskMate-Prototype/index.html",
     "main.eee8b0f6.css.map": "/TaskMate-Prototype/static/css/main.eee8b0f6.css.map",
-    "main.edba1d7e.js.map": "/TaskMate-Prototype/static/js/main.edba1d7e.js.map"
+    "main.13692f45.js.map": "/TaskMate-Prototype/static/js/main.13692f45.js.map"
   },
   "entrypoints": [
     "static/css/main.eee8b0f6.css",
-    "static/js/main.edba1d7e.js"
+    "static/js/main.13692f45.js"
   ]
 }
