@@ -1,7 +1,7 @@
 {
   "name": "taskmate",
   "version": "0.1.0",
-  "homepage": "https://nale6,github.io/react-gh-pages",
+  "homepage": "https://nale6,github.io/TaskMate-Prototype",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
