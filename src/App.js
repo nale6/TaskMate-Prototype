@@ -1,14 +1,10 @@
 import React, { useState } from "react";
 import "./App.css";
-import iphone from "./iphonetransparent.png";
-import taskmatetitle from "./taskmatenewtitle2.png";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing.jsx";
 import Todo from "./pages/Todo.jsx";
 import Completed from "./pages/Completed.jsx";
 import Login from "./pages/Login.jsx";
-
-const loggedIn = false;
 
 function App() {
   return (
