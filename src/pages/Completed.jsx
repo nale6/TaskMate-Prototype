@@ -6,19 +6,11 @@ import { useNavigate } from "react-router-dom";
 import returnicon from "../returnicon.png";
 
 function Todo() {
-  const [openIndexes, setOpenIndexes] = useState({});
   const [openedTask, setOpenedTask] = useState(false);
   const [tasks, setTasks] = useState([]);
   const [completeTasks, setCompleteTasks] = useState([]);
 
   const navigate = useNavigate();
-
-  const toggleSection = (index) => {
-    setOpenIndexes((prev) => ({
-      ...prev,
-      [index]: !prev[index],
-    }));
-  };
 
   const returnClick = () => {
     navigate("/dashboard");
@@ -46,17 +38,6 @@ function Todo() {
     };
 
     return dateObject.toLocaleString(undefined, options);
-  };
-
-  const completedTaskClick = (index) => {
-    setOpenedTask(!openedTask);
-    const tasks = JSON.parse(localStorage.getItem("task")) || [];
-
-    const updateTasks = tasks.filter((_, divIndex) => divIndex !== index);
-
-    localStorage.setItem("task", JSON.stringify(updateTasks));
-
-    setTasks(updateTasks);
   };
 
   useEffect(() => {
