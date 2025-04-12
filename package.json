@@ -1,7 +1,7 @@
 {
   "name": "taskmate",
   "version": "0.1.0",
-  "homepage": "https://nale6.github.io/TaskMate-Prototype",
+  "homepage": "https://nale6.github.io/TaskMate-Build",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
