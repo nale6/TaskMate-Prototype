@@ -8,7 +8,7 @@ import Login from "./pages/Login.jsx";
 
 function App() {
   return (
-    <HashRouter basename="/TaskMate-Prototype">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/todo" element={<Todo />} />
