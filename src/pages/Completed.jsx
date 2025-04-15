@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import returnicon from "../returnicon.png";
 
 function Todo() {
-  const [openedTask, setOpenedTask] = useState(false);
+  const [openedDetails, setOpenedDetails] = useState(null);
   const [tasks, setTasks] = useState([]);
   const [completeTasks, setCompleteTasks] = useState([]);
 
@@ -23,7 +23,9 @@ function Todo() {
   }, []);
 
   const descriptionClick = (index) => {
-    setOpenedTask(!openedTask);
+    setOpenedDetails(openedDetails === index ? null : index);
+    console.log("did something");
+    console.log("task:", openedDetails);
   };
 
   const formatDate = (taskDateTime) => {
@@ -78,7 +80,7 @@ function Todo() {
             {completeTasks.length > 0 ? (
               completeTasks.map((task, index) => (
                 <div key={index} className="todo-list-task-wrapper">
-                  {openedTask ? (
+                  {openedDetails === index ? (
                     <div>
                       <div className="grey-screen-description"></div>
                       <div className="info-box">
@@ -93,7 +95,7 @@ function Todo() {
                           src={returnicon}
                           alt="Arrow facing backwards icon"
                           className="return-icon return-icon-in-info"
-                          onClick={descriptionClick}
+                          onClick={() => descriptionClick(index)}
                         />
                       </div>
                     </div>
@@ -109,7 +111,7 @@ function Todo() {
                   <div className="task-title-in-todo">{task.title}</div>
                   <button
                     className="details-in-todo"
-                    onClick={descriptionClick}
+                    onClick={() => descriptionClick(index)}
                   >
                     Details
                   </button>

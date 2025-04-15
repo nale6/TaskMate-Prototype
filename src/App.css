@@ -489,6 +489,12 @@ body {
   z-index: 30;
   font-family: cursive;
   text-align: center;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.help-box::-webkit-scrollbar {
+  display: none;
 }
 .help-x {
   position: inherit;

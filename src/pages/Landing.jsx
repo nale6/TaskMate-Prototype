@@ -224,6 +224,11 @@ function Landing() {
                   shows you all completed tasks and lets you delete them.
                 </p>
                 <p>
+                  Note that the "Working On..." section will only show tasks
+                  with due dates that haven't been passed yet. If you set a task
+                  to be due yesterday, it won't show up.
+                </p>
+                <p>
                   Please note that tasks are currently stored on your browser's
                   localStorage and are not actually uploaded to a cloud or
                   anywhere else.
